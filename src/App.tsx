@@ -5,22 +5,22 @@ import { ArrowBigDown } from "lucide-react";
 function App() {
   return (
     <div className="snap-y h-screen overflow-y-auto snap-mandatory">
-      <section className="snap-center h-screen flex items-center justify-center bg-cover bg-center m-0 ">
+      <section className="snap-center h-screen flex items-center justify-center bg-cover bg-center pt-0 2xl:pt-20">
         <div className="w-full h-full">
           <header style={{ userSelect: "none" }}>
-            <h1 className="md:text-9xl font-bold text-center mb-12 mt-32">
+            <h1 className="md:text-9xl font-bold text-center mb-12">
               <strong>
                 Indust<span className="text-red-700">MAX</span>
               </strong>{" "}
               <br />
             </h1>
-            <p className="md:text-8xl font-bold text-center text-slate-950">
+            <p className="md:text-7xl font-bold text-center text-slate-950">
               La <span className="text-red-500">solución</span> a una{" "}
               <span className="text-red-500">industria</span> en desorden
             </p>
           </header>
           <CarouselTop />
-          <p className="text-4xl font-bold text-center text-slate-950 mt-12">
+          <p className="text-4xl font-bold text-center text-slate-950 ">
             <strong>Conoce más</strong>
           </p>
           <ArrowBigDown className="h-16 mt-6 w-16 text-center mx-auto animate-bounce" />
