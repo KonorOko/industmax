@@ -12,7 +12,7 @@ export function Diapo1() {
       </header>
       <div className="md:grid md:grid-cols-2 md:mt-10 p-1 md:gap-4">
         <article className="bg-blue-400 rounded-lg shadow-lg p-2 md:p-0">
-          <header className="text-3xl md:text-4xl font-bold text-center pt-1 md:pt-10">
+          <header className="text-2xl md:text-4xl font-bold text-center pt-1 md:pt-10">
             <p>
               Con increíbles{" "}
               <span className="text-red-600">características</span> de utilidad
