@@ -2,15 +2,15 @@ import { Carousel1 } from "@/components/mainPage/Carousel1";
 import { ArrowBigDown } from "lucide-react";
 export function Diapo1() {
   return (
-    <div className="min-w-full min-h-screen bg-blue-50 md:px-10">
-      <header className="py-5 text-5xl md:text-9xl font-extrabold text-center text-red-600">
-        IndustMAX
-        <div className="text-xl md:text-6xl text-black mt-2 font-bold">
+    <div className="w-full min-h-screen bg-blue-50 md:px-10">
+      <header className="py-5 text-5xl md:text-9xl font-extrabold text-center text-red-700">
+        <span className="text-black">Indust</span>MAX
+        <div className="text-xl md:text-6xl text-slate-900 mt-2 font-bold">
           <p>La mejor solución para tu empresa</p>
           <p>en el sector industrial</p>
         </div>
       </header>
-      <div className="md:grid md:grid-cols-2 md:mt-10 p-1 md:gap-5">
+      <div className="md:grid md:grid-cols-2 md:mt-10 p-1 md:gap-4">
         <article className="bg-blue-400 rounded-lg shadow-lg p-2 md:p-0">
           <header className="text-3xl md:text-4xl font-bold text-center pt-1 md:pt-10">
             <p>
