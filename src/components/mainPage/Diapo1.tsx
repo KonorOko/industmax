@@ -22,9 +22,9 @@ export function Diapo1() {
             <Carousel1 />
           </section>
           <div>
-            <p className="md:text-2xl text-center font-medium mt-5 mb-2 md:mb-0">
+            <p className="md:text-2xl text-center font-extralight md:font-normal mt-5 mb-2 md:mb-0">
               <strong>
-                Con <span className="text-red-600">IndustMAX</span> podrás
+                Con <span className="font-bold">Indust</span><span className="text-red-700">MAX</span> podrás
                 llevar un control total de tus procesos de producción, desde la
                 recepción de materiales hasta el envío de productos terminados.
               </strong>
@@ -33,7 +33,7 @@ export function Diapo1() {
         </article>
         <img
           src="https://www.desotec.com/uploads/Industry/shutterstock_1452861395.jpg"
-          alt="Imagen de la industria quimica"
+          alt="Imagen de industria en la que se ve una fábrica con humo saliendo de las chimeneas y un cielo azul con nubes blancas."
           className="aspect-video rounded-lg shadow-lg mb-5 md:mb-0"
         />
       </div>
