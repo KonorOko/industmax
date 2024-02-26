@@ -5,14 +5,14 @@ export function Diapo2() {
         <h1 className="text-4xl md:text-8xl font-bold text-center text-black py-5">
           <strong>¿Qué es Indust<span className="text-red-700">MAX</span>?</strong>
         </h1>
-        <p className="text-lg md:text-4xl font-semibold text-center mt-6">
+        <p className="text-lg md:text-4xl text-center mt-6">
           <strong>
             IndustMAX es una solución integral para la gestión de la producción
             en la industria.
           </strong>
         </p>
       </header>
-      <div className="flex justify-center items-center mt-10 p-5 text-center">
+      <div className="flex justify-center items-center mt-10 p-5 ">
         <div className="w-full">
           <p className="md:text-2xl ">
             <strong>
