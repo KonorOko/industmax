@@ -2,7 +2,7 @@ import { Carousel1 } from "@/components/mainPage/Carousel1";
 import { ArrowBigDown } from "lucide-react";
 export function Diapo1() {
   return (
-    <div className="w-full min-h-screen bg-blue-50 md:px-10">
+    <div className="w-full min-h-screen md:px-10">
       <header className="py-5 text-5xl md:text-9xl font-extrabold text-center text-red-700">
         <span className="text-black">Indust</span>MAX
         <div className="text-xl md:text-6xl text-slate-900 mt-2 font-bold">
