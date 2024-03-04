@@ -1,6 +1,6 @@
 export function Diapo2() {
   return (
-    <div className="bg-blue-300 h-screen">
+    <div className="bg-blue-300 h-[110vh]">
       <header>
         <h2 className="text-4xl md:text-8xl font-bold text-center text-black py-5">
           <strong>
@@ -29,8 +29,8 @@ export function Diapo2() {
             Con planes pensados para cada tipo de industria
           </h2>
           <div className="flex justify-evenly mt-4">
-            <div className="border w-40 h-40"></div>
-            <div className="border w-40 h-40"></div>
+            <div className="border w-40 h-40 rounded-lg"></div>
+            <div className="border w-40 h-40 rounded-lg"></div>
           </div>
           <p className=" text-center font-semibold mt-10">
             Además, podrás contar con nuestro equipo para agregar

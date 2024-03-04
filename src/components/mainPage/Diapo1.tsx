@@ -10,7 +10,7 @@ export function Diapo1() {
           <p>en el sector industrial</p>
         </div>
       </header>
-      <div className="flex flex-col md:grid md:grid-cols-2 md:mt-10 p-1 md:gap-4 ">
+      <div className="flex flex-col md:grid md:grid-cols-2 md:mt-10 p-1 md:gap-10 ">
         <article className="bg-blue-400 rounded-lg shadow-lg p-2 md:p-0 order-last md:order-none">
           <header className="text-2xl md:text-4xl font-bold text-center pt-1 md:pt-10">
             <p>
@@ -21,21 +21,20 @@ export function Diapo1() {
           <section className="md:p-5 mt-5 md:mt-10">
             <Carousel1 />
           </section>
-          <div>
-            <p className="md:text-2xl text-center font-extralight md:font-normal mt-5 mb-2 md:mb-0">
-              <strong>
-                Con <span className="font-bold">Indust</span><span className="text-red-700">MAX</span> podrás
-                llevar un control total de tus procesos de producción, desde la
-                recepción de materiales hasta el envío de productos terminados.
-              </strong>
-            </p>
-          </div>
+          <p className="md:text-2xl text-center font-extralight md:font-normal my-5 md:p-2">
+            Con <span className="font-bold">Indust</span>
+            <span className="text-red-700">MAX</span> podrás llevar un control
+            total de tus procesos de producción, desde la recepción de
+            materiales hasta el envío de productos terminados.
+          </p>
         </article>
-        <img
-          src="https://www.desotec.com/uploads/Industry/shutterstock_1452861395.jpg"
-          alt="Imagen de industria en la que se ve una fábrica con humo saliendo de las chimeneas y un cielo azul con nubes blancas."
-          className="aspect-video rounded-lg shadow-lg mb-5 md:mb-0"
-        />
+        <div className="md:bg-blue-300 content-center grid grid-cols-1 rounded-lg">
+          <img
+            src="https://www.desotec.com/uploads/Industry/shutterstock_1452861395.jpg"
+            alt="Imagen de industria en la que se ve una fábrica con humo saliendo de las chimeneas y un cielo azul con nubes blancas."
+            className="aspect-video rounded-lg md:shadow-2xl mb-5 md:mb-0 md:scale-105"
+          />
+        </div>
       </div>
       <section className="text-center font-bold md:text-4xl mt-5">
         <header>Descúbrenos</header>
