@@ -20,7 +20,7 @@ export function Diapo2() {
             className="aspect-video mx-auto rounded-lg border"
           />
         </div>
-        <div className="my-auto text-base md:text-3xl">
+        <div className="my-auto text-base md:text-3xl md:mt-10">
           <p className="text-center">
             Podrás tener un control total de tus procesos de producción desde
             cualquier lugar, en cualquier momento y desde cualquier dispositivo.
