@@ -2,20 +2,20 @@ import { Card } from "@/components/personal-ui/Card";
 
 export function Diapo2() {
   return (
-    <div className="bg-blue-300 h-[110vh]">
+    <div className="h-[110vh]">
       <header>
         <h2 className="text-4xl md:text-8xl font-bold text-center text-black py-5">
           <strong>
             ¿Qué es Indust<span className="text-red-700">MAX</span>?
           </strong>
         </h2>
-        <p className="text-lg md:text-4xl text-center md:mt-6 font-semibold">
+        <p className="text-lg md:text-4xl text-center md:mt-6">
           IndustMAX es una solución integral para la gestión de la producción en
           la industria.
         </p>
       </header>
-      <div className="w-full md:grid md:grid-cols-2 mt-5">
-        <div className="m-5 p-5 grid grid-cols-1 content-center bg-blue-500 rounded-lg">
+      <div className="w-full md:grid md:grid-cols-2 md:mt-5 bg-blue-400">
+        <div className="md:m-5 md:p-5 p-3 grid grid-cols-1 content-center rounded-lg">
           <img
             src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-2024/shadcn-ui.png"
             alt="Imagen de una aplicación donde se llevan registros"
@@ -26,7 +26,7 @@ export function Diapo2() {
           <p className="text-center">
             Podrás tener un <span className="text-red-700">control total</span> de tus procesos de producción.
           </p>
-          <h2 className="font-bold md:text-xl text-center pt-5">
+          <h2 className="font-bold md:text-xl text-center pt-2 md:pt-5">
             Con planes pensados para cada tipo de industria
           </h2>
           <div className="flex justify-evenly mt-4">
