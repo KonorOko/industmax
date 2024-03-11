@@ -9,13 +9,13 @@ export function Diapo2() {
             ¿Qué es Indust<span className="text-red-700">MAX</span>?
           </strong>
         </h2>
-        <p className="text-lg md:text-4xl text-center md:mt-6">
+        <p className="text-lg md:text-4xl text-center md:mt-6 my-2">
           IndustMAX es una solución integral para la gestión de la producción en
           la industria.
         </p>
       </header>
-      <div className="w-full md:grid md:grid-cols-2 md:mt-5 bg-blue-400">
-        <div className="md:m-5 md:p-5 p-3 grid grid-cols-1 content-center rounded-lg">
+      <div className="w-full md:grid md:grid-cols-2 md:mt-5 md:bg-blue-400">
+        <div className="md:m-5 md:p-5 p-3 grid grid-cols-1 content-center rounded-lg bg-blue-400 md:bg-transparent">
           <img
             src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-2024/shadcn-ui.png"
             alt="Imagen de una aplicación donde se llevan registros"
