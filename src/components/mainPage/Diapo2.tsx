@@ -14,29 +14,29 @@ export function Diapo2() {
           la industria.
         </p>
       </header>
-      <div className="w-full md:grid md:grid-cols-2">
-        <div className="p-5 md:p-10 grid grid-cols-1 content-center">
+      <div className="w-full md:grid md:grid-cols-2 mt-5">
+        <div className="m-5 p-5 grid grid-cols-1 content-center bg-blue-500 rounded-lg">
           <img
             src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-2024/shadcn-ui.png"
             alt="Imagen de una aplicación donde se llevan registros"
-            className="aspect-video mx-auto rounded-lg border "
+            className="aspect-video mx-auto rounded-lg border scale-105"
           />
         </div>
-        <div className="my-auto text-base md:text-2xl md:mt-10">
+        <div className="my-auto text-base md:text-2xl md:mt-5">
           <p className="text-center">
-            Podrás tener un control total de tus procesos de producción desde
-            cualquier lugar, en cualquier momento y desde cualquier dispositivo.
+            Podrás tener un <span className="text-red-700">control total</span> de tus procesos de producción.
           </p>
-          <h2 className="font-bold text-xl text-center pt-6">
+          <h2 className="font-bold md:text-xl text-center pt-5">
             Con planes pensados para cada tipo de industria
           </h2>
           <div className="flex justify-evenly mt-4">
-            <Card title="Card 1" desc="Esta es la carta 1"/>
-            <Card title="Card 2" desc="Esta es la carta 2"/>  
+            <Card title="Card 1" desc="Esta es la carta 1" size="sm"/>
+            <Card title="Card 2" desc="Esta es la carta 2" size="sm"/>  
+            <Card title="Card 3" desc="Esta es la carta 3" size="sm"/>
           </div>
-          <p className=" text-center font-semibold mt-5 md:text-xl">
+          <p className="text-center mt-5 md:text-2xl">
             Además, podrás contar con nuestro equipo para agregar
-            funcionalidades personalizadas a tu plan.
+            <span className="text-red-700"> funcionalidades personalizadas</span> a tu plan.
           </p>
         </div>
       </div>

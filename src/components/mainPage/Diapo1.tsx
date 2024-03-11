@@ -28,7 +28,7 @@ export function Diapo1() {
             materiales hasta el envío de productos terminados.
           </p>
         </article>
-        <div className="md:bg-blue-300 content-center grid grid-cols-1 rounded-lg">
+        <div className="md:bg-blue-500 content-center grid grid-cols-1 rounded-lg">
           <img
             src="https://www.desotec.com/uploads/Industry/shutterstock_1452861395.jpg"
             alt="Imagen de industria en la que se ve una fábrica con humo saliendo de las chimeneas y un cielo azul con nubes blancas."
