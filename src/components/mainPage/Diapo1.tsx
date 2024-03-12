@@ -32,7 +32,7 @@ export function Diapo1() {
           <img
             src="https://www.desotec.com/uploads/Industry/shutterstock_1452861395.jpg"
             alt="Imagen de industria en la que se ve una fábrica con humo saliendo de las chimeneas y un cielo azul con nubes blancas."
-            className="aspect-video rounded-lg md:shadow-2xl mb-5 md:mb-0 md:scale-105"
+            className="aspect-video rounded-lg md:shadow-2xl mb-5 md:mb-0 md:scale-105 transition-all hover:-translate-y-2"
           />
         </div>
       </div>

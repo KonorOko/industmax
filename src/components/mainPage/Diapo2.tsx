@@ -2,7 +2,7 @@ import { Card } from "@/components/personal-ui/Card";
 
 export function Diapo2() {
   return (
-    <div className="h-[110vh]">
+    <div className="h-[110vh] md:h-[100vh]">
       <header>
         <h2 className="text-4xl md:text-8xl font-bold text-center text-black md:py-5">
           <strong>
@@ -10,7 +10,7 @@ export function Diapo2() {
           </strong>
         </h2>
         <p className="text-lg md:text-4xl text-center md:mt-6 my-2 mx-2 md:mx-0 font-semibold">
-          IndustMAX es una solución integral para la gestión de la producción en
+          IndustMAX es una <span className="text-red-700">solución integral</span> para la gestión de la producción en
           la industria.
         </p>
       </header>
@@ -19,7 +19,7 @@ export function Diapo2() {
           <img
             src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-2024/shadcn-ui.png"
             alt="Imagen de una aplicación donde se llevan registros"
-            className="aspect-video mx-auto rounded-lg border scale-105"
+            className="aspect-video mx-auto rounded-lg border scale-105 hover:scale-110 transition-all"
           />
         </div>
         <div className="my-auto text-base md:text-2xl md:mt-5">
