@@ -18,7 +18,7 @@ export function Card({
       } ${className}`}
     >
       <h2 className="md:text-xl font-semibold">{title}</h2>
-      <p className="font-bold text-lg md:text-4xl">{price}</p>
+      <p className="font-bold text-lg md:text-5xl">{price}</p>
       <p className="text-base">{desc}</p>
     </div>
   );
