@@ -19,8 +19,8 @@ export function Diapo2() {
         <div className="md:m-5 p-3 grid grid-cols-1 content-center rounded-lg ">
           <img
             src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-2024/shadcn-ui.png"
-            alt="Imagen de una aplicación donde se llevan registros"
-            className="aspect-video h-80 mx-auto rounded-lg border scale-105 hover:scale-110 transition-all"
+            alt="Imagen donde se ve una aplicación que controla y administra recursos."
+            className="aspect-video md:h-80 mx-auto rounded-lg border scale-105 hover:scale-110 transition-all"
           />
         </div>
         <div className="my-auto text-base md:text-2xl md:mt-5">
@@ -57,7 +57,11 @@ export function Diapo2() {
         </div>
       </div>
       <section className="border rounded-xl w-full h-40 md:mt-16 mt-5 flex gap-5 md:gap-20">
-        <section className="bg-blue-400 rounded-lg w-1/2"></section>
+        <section className="bg-blue-400 rounded-lg w-1/2 px-5">
+          <header>
+            Beneficios
+          </header>
+        </section>
         <section className="bg-blue-400 rounded-lg w-1/2"></section>
       </section>
     </div>
