@@ -56,12 +56,8 @@ export function Diapo2() {
           </p>
         </div>
       </div>
-      <section className="border rounded-xl w-full h-40 md:mt-16 mt-5 flex gap-5 md:gap-20">
-        <section className="bg-blue-400 rounded-lg w-1/2 px-5">
-          <header>
-            Beneficios
-          </header>
-        </section>
+      <section className="rounded-xl w-full h-40 md:mt-16 mt-5 flex gap-5 md:gap-20">
+        <section className="bg-blue-400 rounded-lg w-1/2"></section>
         <section className="bg-blue-400 rounded-lg w-1/2"></section>
       </section>
     </div>
